@@ -1,0 +1,77 @@
+#Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 80px;
+    padding: 0 50px;
+
+    box-sizing: border-box;
+    position:fixed;
+    background-color:#1a2517;
+}
+
+.Header-logo {
+    height: 100px;
+    width: auto;
+    display: block;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#Navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:100px;
+    margin-left:0px;
+}
+
+#AuthButtons{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left:20px;
+    margin-right:90px;
+    gap:20px;
+
+
+}
+
+#login-button{
+    background-color:transparent;
+    color:white;
+    border: 2px solid #ACC8A2;
+
+    padding: 12px 30px;
+
+    border-radius: 50px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+}
+
+#signup-button{
+    background-color: #ACC8A2;
+    color: white;
+
+    border: none;
+
+    padding: 12px 30px;
+
+    border-radius: 50px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+}

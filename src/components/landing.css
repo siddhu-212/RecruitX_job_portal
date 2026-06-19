@@ -1,0 +1,414 @@
+.landing-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.landing-image-container{
+    position:relative;
+    width:100%;
+}
+
+.title{
+    position:absolute;
+    top: 14%;
+    left:8%;
+    color:#1a2517;
+    text-align:left;
+    font-size:40px;
+    line-height:1;
+}
+
+.highlight{
+    color:#ACC8A2;
+}
+
+.Description{
+    position:absolute;
+    top:43%;
+    left:8%;
+    font-size:25px;
+    text-align:left;
+    color:#1a2517;
+    line-height:1.5;
+    font-weight:400;
+
+}
+
+.JobButton-Container{
+    position:absolute;
+    top:55%;
+    left:8%;
+
+    
+}
+
+.JobButton{
+    background-color:#1a2517;
+    
+    color: white;
+
+    border: none;
+
+    border-radius: 15px;
+
+    padding: 18px 40px;
+
+    font-size: 22px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    cursor: pointer;
+}
+
+.stats-section{
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+    top:70%;
+    left:8%;
+    gap:30px;
+}
+
+.card1{
+    display:flex;
+    flex-direction:row;
+    color:#1a2517;
+    gap:10px;
+    align-items:center;
+}
+
+.card1-icon{
+    color:#1a2517;
+    background-color: #C7DDBF;
+
+    padding: 15px;
+
+    border-radius: 12px;
+}
+.card1-text{
+    font-weight:700;
+    text-align:left;
+    line-height:0.8;
+}
+
+.card2{
+    display:flex;
+    flex-direction:row;
+    color:#1a2517;
+    gap:10px;
+    align-items:center;
+}
+
+.card2-icon{
+    color:#1a2517;
+    background-color: #C7DDBF;
+
+    padding: 15px;
+
+    border-radius: 12px;
+}
+.card2-text{
+    font-weight:700;
+    text-align:left;
+    line-height:0.8;
+}
+
+.card3{
+    display:flex;
+    flex-direction:row;
+    color:#1a2517;
+    gap:10px;
+    align-items:center;
+}
+
+.card3-icon{
+    color:#1a2517;
+    background-color: #C7DDBF;
+
+    padding: 15px;
+
+    border-radius: 12px;
+}
+.card3-text{
+    font-weight:700;
+    text-align:left;
+    line-height:0.8;
+}
+
+.card-text{
+    font-size:small;
+    font-weight:600;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    line-height:0.5;
+}
+.text1{
+    color:#ACC8A2;
+    font-weight: 600;
+    font-family: 'calibri';
+}
+
+.text2{
+    color:#1a2517;
+    font-weight:700;
+    font-family:'calibri';
+}
+
+.featureCards{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+
+}
+
+.fc{
+    width: 350px;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+    text-align: center;
+
+    transition: all 0.3s ease;
+    color:#1a2517;
+
+}
+
+.fc:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.fc-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background:#eef6e8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+
+.fc-div2{
+    font-family: 'Inter', sans-serif;
+}
+
+.fc-div3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text3{
+    color:#ACC8A2;
+}
+
+.categoryCards{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.cc{
+    width: 170px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:row;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    align-items:center;
+    text-align: center;
+    gap:20px;
+    transition: all 0.3s ease;
+
+}
+
+.cc:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+.cc-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:#eef6e8;
+    color:#1a2517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cc-text{
+    color:#1a2517;
+    font-family:'Inter', sans-serif;
+    font-size:large;
+    font-weight: 600;
+
+    
+}
+
+.jobCards{
+    padding: 0 120px;
+
+}
+
+.jc-header{
+    color:#ACC8A2;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.jc-header1{
+
+}
+
+.jc-header2{
+    text-decoration:underline;
+
+}
+
+.jc-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+
+}
+
+.jc-card{
+    width: 350px;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+    text-align: center;
+
+    transition: all 0.3s ease;
+    color:#1a2517;
+}
+
+.jc-card_div1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.jc-card_icon{
+    width: 80px;
+    height: 80px;
+    background-color:white;
+    
+
+}
+
+
+.jc-card_bm{
+
+}
+
+.jc-card_jobrole{
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.jc-card_company{
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a6b43;
+    margin-top:6px;
+}
+
+.jc-card_location{
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6b7280;
+    margin-top:10px;
+}
+
+.jc-card_div5{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+
+}
+
+.jc-card_salary{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a2517;
+}
+
+.jc-card_jobtype{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    background: #eef6e8;
+    color: #6b8f5a;
+    padding: 6px 12px;
+    border-radius: 8px;
+
+}
+
+.jc-card_button{
+    background:#243120;
+    color:white;
+    border:none;
+    border-radius:8px;
+    margin-top:20px;
+    transition: all 0.3s ease;
+}
+
+.jc-card_button:hover{
+    transform: scale(1.04);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+#jc-card_button{
+    width:100%;
+    height:48px;
+    background:#243120;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
